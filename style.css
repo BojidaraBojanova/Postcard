@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font: 16px/1.5 'Gochi Hand', sans-serif;
+}
+
+body, input, button, textarea{
+    font: inherit;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    padding: 2em;
+    background-color: #E0E0E0;
+}
+
+.container{
+    max-width: 1005px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.container section{
+    display: flex;
+    flex-direction: column;
+}
+
+.container section .media{
+    flex: 0 0 60%;
+    order: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1em 1em 0 0;
+    padding: 2em;
+}
+
+.container section .content{
+    position: absolute;
+    background-color: #fff;
+    max-width: 100ch;
+    border-radius: 1em;
+    opacity: 0.9;
+    text-align: center;
+    padding: 1em 4.2em;
+    margin-bottom: 1em;
+}
+
+.container section .content h2{
+    color: #333333;
+}
+
+.container section .content p{
+    opacity: 0.7;
+}
+
+.container .section-address{
+    border-top: 1px solid #D7D7D7;
+    padding: 2em 4em;
+}
+
+.container .section-address h2{
+    color: #333333;
+    padding-bottom: 1em;
+}
+
+.container .section-address p{
+    opacity: 0.7;
+    line-height: 2;
+}
